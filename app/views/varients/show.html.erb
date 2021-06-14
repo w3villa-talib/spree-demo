@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @varient.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @varient.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @varient.price %>
+</p>
+
+<%= link_to 'Edit', edit_varient_path(@varient) %> |
+<%= link_to 'Back', varients_path %>
